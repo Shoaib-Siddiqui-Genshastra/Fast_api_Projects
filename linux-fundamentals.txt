@@ -1,0 +1,77 @@
+--------------------
+different distrubutions:
+Debian:
+ubuntu 24
+
+non-Debian:
+redhat 8
+fedora
+centos 
+to check which distribution of Linux installed -----------> cat /etc/os-release
+
+
+different package management:
+Debian: ubuntu --------> dpkg, apt, apt-get (apt built on top of the dpkg)
+non-Debian: fedora, centos, red-hat -----------> yum, dnf
+
+
+file& directory management:
+
+touch name.cs
+cat file
+ls (7 current-user,7 group, 7 others)
+ls -lrth
+pwd
+cd
+mv (rename the file, to move the file from one directory to another)
+cp
+mkdir
+rmdir 
+rm 
+rm -rf
+*
+
+ownership:
+
+chmod: 
+r -- read 4
+w --- write 2 
+x -- executable 1
+= 7 
+--- --- ---
+rwx r-- ---
+
+chown
+
+
+editors ---------> vim, nano
+
+vim filename
+nano filename
+sudo 
+uname -a (system info)
+
+-------------------
+resource management:
+
+free -m
+df -h
+du -sh
+top (current cpu)
+
+----------------------
+
+networking:
+apt install net-tools ----------> net-tools (to install all the networking related softwares in the system)
+
+ip
+netstat/ss -tunlp
+ps
+nslookup
+telnet
+dig
+ping
+wget (to install some specific software)
+curl (to interact with url's)
+
+-------------------
