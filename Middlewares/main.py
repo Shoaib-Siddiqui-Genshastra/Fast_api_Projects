@@ -2,8 +2,22 @@ from fastapi import FastAPI, HTTPException
 from typing import List
 from model import Employee
 import crud
+from middleware import LoggingMiddleware
+#from middleware.logging import LoggingMiddleware
+#from middleware.authentication import AuthenticationMiddleware
+#from middleware.cors import add_cors_middleware
+#from middleware.error_handling import ErrorHandlingMiddleware
+
 
 app = FastAPI()
+
+# Add middleware
+app.add_middleware(LoggingMiddleware)
+
+#app.add_middleware(AuthenticationMiddleware)
+#app.add_middleware(ErrorHandlingMiddleware)
+#add_cors_middleware(app)
+
 
 
 @app.get("/employees/", response_model=List[Employee])

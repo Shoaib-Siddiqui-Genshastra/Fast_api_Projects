@@ -1,0 +1,14 @@
+1.  Project Architecture and flow
+2.  Design pattern - singalton design patter 
+3.  iterators
+4.  generators - benefits of yield over return 
+5.  how to optimize sql queries
+6.  how to optimize the security of rest api's
+7.  write a code to short the list without using inbuilt function
+8.  what are decorators
+9.  write a code to show the custom decorator 
+10. what is *args in custom decorators 
+11. what is **kwargs in custom decorators
+12. how to open file 
+13. how to optimize security while opening the file in python.
+14. explain the diff btw normal opening process of file and opening with "with" keyword
